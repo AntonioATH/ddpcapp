@@ -1,0 +1,42 @@
+.nav{ 
+    background-color: #000;
+    color: #fff;
+
+}
+.navbar{
+    background-color: #000;
+    color: #fff;
+}
+.navbar-brand{}
+
+.cabecalho{
+    background-color: #ffd663;
+    color: #a71111;
+    height:60px;
+}
+
+
+
+/* Adicionando o estilo CSS diretamente para melhor visualização */
+.imagem {
+    display: flex;
+      justify-content: space-between; /* Espaçamento entre imagem e formulário */
+}
+
+.imagem img {
+    max-width: 50%;  /* Define o tamanho máximo da imagem */
+    height: auto;
+    margin-left: 250px;
+    margin-top: 150px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+form {
+    margin-right: 300px;
+    margin-top: 150px;
+    background-color: rgb(194, 194, 194);
+    border-radius: 5%;
+    width: 30%;
+}
+
