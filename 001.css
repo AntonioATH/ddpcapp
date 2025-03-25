@@ -14,7 +14,8 @@
     height:60px;
 }
 
-body {
+.body {
+    background-color:rgb(29, 29, 182) ;
     max-height: 50%;
     margin: 0;
     padding: 0;
@@ -87,14 +88,14 @@ body {
 .form-container {
     width: 500px;
     background-color: #ffffff;
+    border-radius: 25px;
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
     padding: 30px;
     position: relative;
-    left: 1350px;
-    top: 50px;
+    left: 1000px;
+    margin-top: 50px;
     margin-bottom: 100px;
     overflow-y: auto;
-    border-radius: 25px;
   }
 
 .form-box {
@@ -176,7 +177,16 @@ textarea {
     }
 }
 
+.airimg{
+  size: small;
+  position: relative;
+  top: px;
+  width: 30%;
+  height: min-content;
+}
 .white-section {
-  background: white;
+  background: rgb(255, 255, 255);
   height: 500px; /* Ajuste conforme necessário */
-  width: 100%;}
+  width: 100%;
+}
+
